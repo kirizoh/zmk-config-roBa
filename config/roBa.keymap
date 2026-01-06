@@ -106,10 +106,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R          &kp T                                                     &kp Y        &kp U  &lt 5 I    &kp O    &lt 5 P
-&kp A             &kp S         &kp D         &kp F          &kp G        &kp CLEAR                 &kp EXCL           &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V          &kp B        &kp ESC                   &kp JP_UNDERSCORE  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 6 JP_KANA  &lt 2 SPACE  &lt_to_layer_0 3 TAB      &kp BACKSPACE      &lt 1 ENTER                             &kp DEL
+&kp Q             &kp W         &kp E         &kp R              &kp T                                                     &kp Y        &kp U  &lt 5 I    &kp O    &lt 5 P
+&kp A             &kp S         &kp D         &kp F              &kp G        &kp CLEAR                 &kp EXCL           &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V              &kp B        &kp ESC                   &kp JP_UNDERSCORE  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 6 JP_HANZEN    &lt 2 SPACE  &lt_to_layer_0 3 TAB      &kp BACKSPACE      &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -118,8 +118,8 @@
         Symbols {
             bindings = <
 &trans        &kp JP_AMPERSAND  &kp JP_ASTERISK  &kp JP_LPAREN  &kp JP_RPAREN                           &kp JP_LPAREN    &kp JP_RPAREN    &kp JP_YEN    &kp JP_EQUAL   &trans
-&kp JP_TILDE  &kp DOLLAR        &kp PRCNT        &kp JP_CARET   &kp JP_PLUS    &trans      &trans       &kp JP_LBRACE    &kp JP_RBRACE    &kp SEMI      &kp JP_QUOTE   &kp BACKSLASH
-&trans        &kp EXCL          &kp JP_AT        &kp HASH       &kp MINUS      &trans      &kp AT_SIGN  &kp JP_LBRACKET  &kp JP_RBRACKET  &kp JP_COLON  &kp JP_DQUOTE  &kp JP_PIPE
+&kp JP_TILDE  &kp DOLLAR        &kp PRCNT        &kp JP_CARET   &kp JP_PLUS    &trans      &trans       &kp JP_LBRACE    &kp JP_RBRACE    &kp SEMI      &kp JP_QUOTE   &kp JP_BACKQUOTE
+&trans        &kp EXCL          &kp JP_AT        &kp HASH       &kp MINUS      &trans      &kp JP_AT    &kp JP_LBRACKET  &kp JP_RBRACKET  &kp JP_COLON  &kp JP_DQUOTE  &kp JP_PIPE
 &trans        &trans            &trans           &trans         &trans         &trans      &trans       &trans                                                         &trans
             >;
         };
