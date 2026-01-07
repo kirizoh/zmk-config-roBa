@@ -58,8 +58,8 @@
         L_Click {
             bindings = <&mkp LCLK>;
             key-positions = <18 19>;
-            timeout-ms = <18>;
-            require-prior-idle-ms = <10>;
+            timeout-ms = <0>;
+            require-prior-idle-ms = <0>;
         };
 
         R_Click {
