@@ -55,29 +55,16 @@
     combos {
         compatible = "zmk,combos";
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
+        L_Click {
+            bindings = <&mkp LCLK>;
+            key-positions = <18 19>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <10>;
         };
 
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
-        };
-
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
+        R_Click {
+            bindings = <&mkp RCLK>;
+            key-positions = <19 20>;
         };
     };
 
